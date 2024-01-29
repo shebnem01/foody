@@ -1,0 +1,25 @@
+.restaurant-detail :nth-child(1) {
+    color: #1E1E30;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+}
+
+.restaurant-detail :nth-child(2) {
+    color: var(--Gray-3, #828282);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+}
+
+#restaurant-card {
+    transition: 0.6s all ease;
+    cursor: pointer;
+}
+
+#restaurant-card:hover {
+    transform: scale(1.05) !important;
+    opacity: 0.9 !important;
+}

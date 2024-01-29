@@ -1,0 +1,178 @@
+.common_div {
+  width: 50%;
+ height: 472px;
+
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #27283c;
+}
+
+.salary {
+  width: 60%;
+  border-radius: 14px;
+  background: #27283c;
+}
+
+.orders {
+  width: 47%;
+  height: 472px;
+  margin-right: 30px;
+  border-radius: 14px;
+  background: #27283c;
+}
+
+.orders :nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.years_div {
+  width: 60%;
+  height: 472px;
+  flex-shrink: 0;
+  margin-left: 20px;
+  border-radius: 14px;
+  background: #27283c;
+}
+
+.dash_h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 16px;
+  margin-left: 24px;
+  color: #c7c7c7;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.dash_p {
+  display: flex;
+  justify-content: center;
+  margin-top: 229px;
+  color: hwb(240 56% 42%);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.12px;
+}
+
+.years_h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 16px;
+  margin-left: 49px;
+  color: #c7c7c7;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.years_p {
+  color: #8e8e93;
+  margin-left: 49px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+
+.img_dash {
+  width: 80%;
+  margin-top: 40px;
+  margin-left: 88px;
+}
+
+.imh_h2 {
+  color: #c7c7c7;
+  position: relative;
+  top: 125px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+
+.doughnut_div {
+  margin-left: 104px;
+  margin-top: -33px;
+}
+
+.btn_dash {
+  width: 21px;
+  height: 16px;
+  border-radius: 50%;
+  background: #914df0;
+  position: relative;
+  right: 9px;
+  top: 2px;
+}
+
+.btn_dash_feb {
+  width: 21px;
+  height: 16px;
+  border-radius: 50%;
+  background: #f4a26c;
+  position: relative;
+  right: 9px;
+  top: 2px;
+}
+
+.btn_dash_march {
+  width: 21px;
+  height: 16px;
+  border-radius: 50%;
+  background: #3faea3;
+  position: relative;
+  right: 9px;
+  top: 2px;
+}
+
+.li_dash {
+  color: #c7c7c7;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.btn_li_kfc {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #eb5757;
+  position: relative;
+  right: 9px;
+  top: 2px;
+}
+
+.btn_li_klm {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #a84069;
+  position: relative;
+  right: 9px;
+  top: 2px;
+}
+
+.btn_li {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #bb6bd9;
+  position: relative;
+  right: 9px;
+  top: 2px;
+}

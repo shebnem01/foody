@@ -1,0 +1,112 @@
+.modal-head {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 13px;
+}
+
+.modal-para {
+    width: 250px;
+    color: var(--Gray-2, #4F4F4F);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 22.44px;
+}
+
+.cancel-btn {
+    border-radius: 4px;
+    border: 2px solid var(--Gray-4, #BDBDBD);
+    background: var(--white, #FFF);
+    color: var(--Gray-4, #BDBDBD);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 106px;
+    height: 33.788px;
+    letter-spacing: 0.25px;
+    margin-right: 29px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+.cancel-btn:hover {
+    transform: scale(1.1);
+    background-color: #BDBDBD;
+    color: #fff;
+}
+
+.delete-btn {
+    border-radius: 4px;
+    background: var(--mainRed, #D63626);
+    width: 106px;
+    height: 33.788px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+.delete-btn:hover {
+    transform: scale(1.1);
+    color: #D63626;
+    border: 1px solid #D63626;
+    background-color: #fff;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+}
+
+#modal-position {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 498px;
+    height: 226px;
+    box-shadow: 0px 3px 8px -2px rgba(0, 0, 0, 0.20);
+}
+
+@media screen and (max-width: 768px) {
+    .cancel-btn {
+        width: 257px;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+    .delete-btn {
+        width: 257px;
+        margin-top: 10px;
+    }
+
+    #modal-position {
+        width: 90% !important;
+        height: 292px !important;
+    }
+
+    .modal-head {
+        color: #000;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 13px;
+    }
+}

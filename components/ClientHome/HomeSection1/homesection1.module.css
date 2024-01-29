@@ -1,0 +1,308 @@
+.home-client-bg {
+    background: #F3F4F6;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    padding: 0 56px 0 56px;
+    justify-content: space-between;
+}
+
+.hamburger-bg {
+    position: relative;
+    width: 500px;
+    top: 50px;
+    right: -70px;
+    height: 420px;
+    background: #181617;
+    border-radius: 80px;
+}
+
+.hamburger-image {
+    position: relative;
+    top: -420px;
+    right: -40px;
+    width: 590px;
+}
+
+.hamburger-left {
+    width: 55%
+}
+
+.hamburger-left :nth-child(1) {
+    color: var(--mainBlack, #181617);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1.8px;
+    margin-bottom: 20px;
+}
+
+.hamburger-left :nth-child(2) {
+    width: 68%;
+    color: #828282;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.66px;
+    margin-bottom: 42px;
+}
+
+.hamburger-btn :nth-child(1) {
+    background: #D63626;
+    border-radius: 30px;
+    width: 220px;
+    height: 70px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+}
+
+.hamburger-btn :nth-child(2) {
+    width: 220px;
+    height: 70px;
+    border-radius: 30px;
+    border: 2px solid #828282;
+    background: #F2F2F2;
+    margin-left: 39px;
+}
+
+.foody-card {
+    background-color: #fff;
+    position: absolute;
+    top: 140px;
+    right: 40px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    width: 278px;
+    padding: 20px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.foody-card-text {
+    color: #4F4F4F;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    transform: translatey(0px);
+}
+
+.foody-card-2 {
+    background-color: #fff;
+    position: absolute;
+    top: 420px;
+    right: 440px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    width: 278px;
+    padding: 20px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.foody-card-3 {
+    background-color: #fff;
+    position: absolute;
+    top: 540px;
+    right: 60px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    width: 278px;
+    padding: 20px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.register-btn {
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+.order-btn {
+    transition: 0.8s all ease;
+}
+
+.order-btn:hover {
+    background-color: #828282;
+    border: none;
+    color: #fff;
+}
+
+.order-btn:active {
+    transform: scale(0.95);
+}
+.hamburger-right{
+    height: 600px;
+}
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-20px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+}
+
+@media(max-width:1340px) {
+    .hamburger-left :nth-child(1) {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .hamburger-left :nth-child(2) {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .register-btn {
+        width: 170px !important;
+        font-size: 15px !important;
+        height: 50px !important;
+    }
+
+    .order-btn {
+        width: 170px !important;
+        font-size: 15px !important;
+        height: 50px !important;
+    }
+
+
+}
+
+@media(max-width:1200px) {
+    .hamburger-left :nth-child(1) {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .hamburger-left :nth-child(2) {
+        font-size: 14px;
+    }
+
+    .register-btn {
+        width: 150px !important;
+    }
+
+    .order-btn {
+        width: 150px !important;
+    }
+ 
+    .hamburger-image {
+        width: 400px;
+        top: -330px;
+        right: -112px;
+    }
+
+    .foody-card-2 {
+        right: 350px;
+        width: 220px;
+        padding: 10px;
+    }
+
+    .foody-card-3 {
+
+        width: 220px;
+        padding: 10px;
+    }
+
+    .foody-card {
+
+        width: 220px;
+        padding: 10px;
+    }
+}
+
+@media(max-width:992px) {
+    .home-client-bg {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .hamburger-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hamburger-bg {
+        position: relative;
+        display: none;
+    }
+
+    .foody-card-3,
+    .foody-card-2 {
+        display: none;
+    }
+
+    .hamburger-left :nth-child(2) {
+        display: none;
+    }
+
+    .hamburger-image {
+        position: relative;
+        width: 500px;
+        bottom: auto;
+        top: auto;
+        right: auto;
+    }
+section.mb-20{
+    margin-bottom: 0;
+}
+    .foody-card {
+
+        width: 164px;
+        height: 57px;
+    }
+    .hamburger-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+        width: 100%;
+    }
+    .hamburger-left :nth-child(1) {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .order-btn {
+        display: block !important; 
+        margin: 0 !important;
+    }
+    .hamburger-btn{
+        display: flex;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

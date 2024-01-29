@@ -1,0 +1,139 @@
+.menu {
+    color: #181617;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    margin: 50px;
+}
+
+.menu-para {
+    color: #828282;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.66px;
+    width: 80%;
+}
+
+.offer-card {
+    display: flex;
+    align-items: flex-start;
+    width: 83%;
+    margin: auto;
+    margin-bottom: 150px;
+
+}
+
+.offer-card:nth-child(even) {
+    margin: 170px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.menu-para:nth-child(even) {
+    margin: 50px;
+}
+
+.imagination {
+    padding-top: 185px;
+}
+
+@media(max-width:1200px) {
+    .menu {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        margin: 50px 0 30px;
+    }
+
+    .mb-72 {
+        margin-bottom: 10px !important;
+    }
+
+    .menu-para {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 !important;
+    }
+
+    .offer-card {
+        display: flex;
+        align-items: flex-start;
+        width: 83%;
+        margin: auto;
+        margin-bottom: 0 !important;
+
+    }
+
+    .offer-card:nth-child(even) {
+        margin: 0px 70px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        gap: 40px;
+
+    }
+
+    .menu-para:nth-child(even) {
+        margin: 50px;
+    }
+
+    .imagination {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:992px) {
+    .offer-card {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .offer-card div {
+        width: 100%;
+
+
+    }
+
+    .menu {
+        font-size: 25px;
+        line-height: 31px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        margin: 0 0 20px;
+    }
+
+    .menu-para {
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+    }
+
+    .imagination {
+        padding-top: 10px;
+        margin-bottom: 100px;
+    }
+
+    .offer-card:nth-child(even) {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 10px;
+        margin: 0;
+
+
+    }
+
+    .offer-card img {
+
+        margin: 0 auto;
+        width: 50% !important;
+    }
+}

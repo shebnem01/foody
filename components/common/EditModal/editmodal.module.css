@@ -1,0 +1,398 @@
+/* .editmodal-container {
+    background: #38394E;
+    position: absolute;
+    top: 0;
+    display: block;
+    right: -1200px;
+    padding: 50px 58px 20px 29px;
+    z-index: 999;
+} */
+
+.product-selectbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.show-editmodal {
+    transition: 0.5s all ease;
+    width: 65.9%;
+    background: #38394E;
+    height: 100% !important;
+    position: absolute;
+    overflow: auto;
+    top: 0;
+    right: 0px;
+    padding: 50px 58px 20px 29px;
+    z-index: 999;
+}
+
+.editmodal-top {
+    display: flex;
+    margin-bottom: 126px;
+}
+
+.editmodal-left-contain {
+    width: 45%;
+    margin-right: 76px;
+}
+
+.editmodal-left-top {
+    margin-bottom: 68px;
+}
+
+.editmodal-left-top :nth-child(1) {
+    color: #C7C7C7;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    padding-bottom: 6px;
+}
+
+.editmodal-left-top :nth-child(2) {
+    color: #C7C7C7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+}
+
+.editmodal-left-top :nth-child(3) {
+    margin-top: 12px;
+    width: 124px;
+}
+
+.editmodal-left-bot {
+    color: #C7C7C7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.18px
+}
+
+.editmodal-right-contain {
+    width: 100%;
+    margin-top: 65px;
+}
+
+.editmodal-right-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C7C7C7;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    width: 100%;
+    height: 122px;
+    border-radius: 14px;
+    background: #43445A;
+    transition: 0.8s all ease;
+    margin-bottom: 78px;
+}
+
+.editmodal-right-top :nth-child(1):hover {
+    opacity: 0.9;
+    transform: scale(0.94);
+}
+
+.editmodal-right-bot {
+    border-radius: 14px;
+    background: #43445A;
+    width: 100%;
+    padding: 22px 29px 36px 23px;
+}
+
+.product-name,
+.product-description,
+.product-price {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+}
+
+.product-name :nth-child(1),
+.product-description :nth-child(1),
+.product-price :nth-child(1) {
+    color: #C7C7C7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    margin-bottom: 8px;
+}
+
+.restaurants {
+    width: 100%;
+    color: rgba(242, 242, 242, 0.87);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+    margin-bottom: 12px;
+}
+
+.product-name :nth-child(2),
+.product-description :nth-child(2),
+.product-price :nth-child(2) {
+    border-radius: 14px;
+    color: #fff;
+    background: #5A5B70;
+    padding: 12px 18px 12px 18px;
+    outline: none;
+    transition: 0.1s all ease;
+}
+
+.product-name :nth-child(2):focus,
+.product-description :nth-child(2):focus,
+.product-price :nth-child(2):focus {
+    border: 1px solid #fff;
+}
+
+.product-description :nth-child(2) {
+    height: 133px;
+    resize: none;
+}
+
+.editmodal-bot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-cancel {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    border: 2px solid #38394E;
+    background: #43445A;
+    box-shadow: 0px 4px 4px 0px rgba(39, 174, 96, 0.20);
+    height: 50.09px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    transition: 0.6s all ease;
+}
+
+.edit-cancel:hover {
+    opacity: 0.9;
+    transform: scale(0.92);
+}
+
+.edit-cancel:active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.edit-update {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    border: 2px solid #C035A2;
+    background: #C035A2;
+    box-shadow: 0px 4px 4px 0px rgba(39, 174, 96, 0.20);
+    height: 50.09px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    transition: 0.6s all ease;
+}
+
+.edit-update:hover {
+    opacity: 0.9;
+    transform: scale(0.92);
+}
+
+.edit-update:active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.close-btn {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 440px;
+    z-index: 99999;
+}
+
+.close-btn:hover {
+    opacity: 0.8;
+}
+
+.close-btn:active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.show-editmodal::-webkit-scrollbar {
+    width: 4px;
+}
+
+.show-editmodal::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(192, 53, 162, 1) 0%, rgba(122, 32, 192, 1) 100%);
+}
+
+.show-editmodal::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: 0px 0px 0px 100000vh black;
+}
+
+#desc::-webkit-scrollbar {
+    width: 4px;
+}
+
+#desc::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+}
+
+.mob-upload-text {
+    display: none;
+}
+
+.mob-restaurant-info {
+    display: none;
+}
+
+.editmodal-head {
+    display: none;
+}
+
+@media screen and (max-width: 1060px) {
+    .close-btn {
+        position: fixed;
+        left: 30%;
+        top: 30px;
+        z-index: 99999;
+        opacity: 1;
+        transition: 1s all ease;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .editmodal-container {
+        width: 100% !important;
+        padding: 28px 15px 12px 11px;
+    }
+
+    .show-editmodal {
+        transition: 0.5s all ease;
+        width: 100%;
+        background: #38394E;
+        height: 100% !important;
+        position: absolute;
+        overflow: auto;
+        top: 0;
+        right: 0px;
+        padding: 50px 15px 12px 11px;
+        z-index: 99999;
+    }
+
+    .close-btn {
+        position: absolute;
+        left: 92%;
+        top: 40px;
+        z-index: 99999;
+        transition: 0.4s all ease;
+        width: 30px;
+    }
+
+    .editmodal-left-contain {
+        display: none;
+    }
+
+    .mob-upload-text {
+        display: block;
+        margin-bottom: 11px;
+    }
+
+    .mob-upload-text :nth-child(1) {
+        color: #C7C7C7;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.14px;
+    }
+
+    .mob-restaurant-info {
+        margin-bottom: 12px;
+        display: block;
+    }
+
+    .mob-restaurant-info :nth-child(1) {
+        color: #C7C7C7;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.14px;
+    }
+
+    .editmodal-head {
+        display: block;
+    }
+
+    .editmodal-head :nth-child(1) {
+        color: #C7C7C7;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.25px;
+    }
+
+    .product-description :nth-child(2) {
+        height: 63px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .edit-cancel {
+        font-size: 14px;
+    }
+
+    .edit-update {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    .close-btn {
+        position: absolute;
+        left: 88%;
+        top: 40px;
+        z-index: 99999;
+        transition: 0.4s all ease;
+        width: 30px;
+    }
+}

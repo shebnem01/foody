@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+    .category-type-bg {
+        height: 102px;
+        border-radius: 4px;
+        justify-content: flex-start;
+    }
+}

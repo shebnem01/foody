@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden !important;
+}
+
+.my-custom-admin-body {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.my-custom-admin-body::-webkit-scrollbar {
+    width: 4px;
+}
+
+.my-custom-admin-body::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(192, 53, 162, 1) 0%, rgba(122, 32, 192, 1) 100%);
+}
+
+.my-custom-admin-body::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: transparent;
+    box-shadow: 0px 0px 0px 100000vh black;
+}
+
+.my-custom-body {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.my-custom-body::-webkit-scrollbar {
+    width: 4px;
+}
+
+.my-custom-body::-webkit-scrollbar-track {
+    background: #D63626;
+}
+
+.my-custom-body::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: transparent;
+    box-shadow: 0px 0px 0px 100000vh #fff;
+}

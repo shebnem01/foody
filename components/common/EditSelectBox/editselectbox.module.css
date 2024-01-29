@@ -1,0 +1,46 @@
+#selectBox::-webkit-scrollbar {
+    width: 5px;
+}
+
+#selectBox::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(192, 53, 162, 1) 0%, rgba(122, 32, 192, 1) 100%);
+    border-radius:20px;
+}
+
+#selectBox::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: 0px 0px 0px 100000vh #43445A;;
+}
+
+.category-btn {
+    border-radius: 14px;
+    background: #5A5B70;
+    width: 199px;
+    height: 35px;
+    padding: 0 16px 0 18px;
+    color: #F2F2F2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+}
+
+#listbox-option::-webkit-scrollbar {
+    width: 4px;
+}
+
+#listbox-option::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(192, 53, 162, 1) 0%, rgba(122, 32, 192, 1) 100%);
+}
+
+#listbox-option::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: 0px 0px 0px 100000vh black;
+}
+
+@media screen and (max-width: 768px) {
+    .category-btn {
+        border-radius: 4px;
+    }
+}

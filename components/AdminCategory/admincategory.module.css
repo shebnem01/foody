@@ -1,0 +1,73 @@
+.table {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px -1px 0px 0px #C9CFDA inset;
+}
+
+.thead {
+    height: 65px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-row {
+    text-align: center;
+    height: 48px;
+    transition: 0.5s all ease;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.table-row:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.table-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: #C74FEB;
+    border-radius: 6px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.table-id {
+    padding: 2px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.table-row :nth-child(3) {
+    color: #00072B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.table-row :nth-child(4) {
+    color: #00072B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.thead-row th {
+    color: #00072B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}

@@ -1,0 +1,109 @@
+.imgsrc {
+    margin-right: 17px;
+}
+
+.res-category {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 30px;
+    width: 190px;
+    transition: 0.5s all ease;
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.res-category:hover {
+    padding: 10px 4px;
+    color: #D63626;
+    background-color: rgba(214, 54, 38, 0.1)
+}
+
+.leftresdiv {
+    top: 0px;
+    position: sticky;
+    width: 271px;
+    height: 898px;
+    background: #F3F4F6;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 49px 0 28px 28px;
+}
+
+.leftresdiv::-webkit-scrollbar {
+    width: 3px;
+    height: 338px;
+}
+
+.leftresdiv::-webkit-scrollbar-thumb {
+    background: #D63626;
+}
+
+.mobile-filter ,.overlay{
+    display: none;
+}
+
+@media(max-width:1024px) {
+    .leftresdiv{
+        display: none;
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.25);
+        z-index: 999;
+    }
+
+    .mobile-filter {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        padding-bottom:56px;
+        left: 0;
+        z-index: 9999;
+        background-color: #fff;
+        width: 100%;
+
+        border-radius: 20px 20px 0 0;
+    }
+
+    .mobile-filter .close-filter {
+        width: 35px;
+        height: 35px;
+        margin: 30px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid #eee;
+
+    }
+
+    .mobile-filter li {
+        color: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 10px 0;
+        margin:0 20px;
+        text-transform: capitalize;
+        letter-spacing: 0.54px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    .mobile-filter li:last-child{
+        border: none;
+    }
+}
